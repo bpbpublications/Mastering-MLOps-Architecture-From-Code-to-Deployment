@@ -1,0 +1,14 @@
+name: Pipeline Name
+on: push # trigger for the pipeline i.e. push or pull etc
+jobs:
+  job_1: #ID of the job
+  name: Job no. 1
+  runs-on: ubuntu-latest
+  steps:
+    . . . . .
+
+  job_2:
+  name: Job no. 2
+  runs-on: ubuntu-latest
+  steps:
+    . . . . .
